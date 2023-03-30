@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1024px;
+    /* background-color: aquamarine; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+header{
+    display: flex;
+    
+    flex-direction: column;
+    position: fixed;
+    text-align: left;
+    border: 2px solid red; 
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    width: 10dvw;
+    background-color: aquamarine;
+    height: 100dvh;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 20px 0 20px 20px;
+}
+
+header a:first-child{
+    margin-top: 33dvh;
+}
+
+main{
+    flex-basis: 80%;
+    flex-shrink: 0;
+    border: 5px solid red;
+    margin-left: 20dvh;
+  
+}
+.section{
+    flex-basis: 100%;
+    border: 2px solid white;
+    text-align: left;
+}
+.profile{
+    text-align: center;
+    margin: 50px auto;
+        
+}
+.me{ 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.878), rgba(0, 0, 0, 0.53)),
+    url(https://buildfire.com/wp-content/uploads/2021/10/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled.jpg);
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.profile img{
+    width: 200px;
+    height: 210px;
+    border-radius: 100%;
+}
+.name{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+
+
+ .cards{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 20px;
+} 
+
+.card1{
+    margin: 10px; 
+    padding: 10px;
+    border: 2px solid red;
+}
+.card2{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+    
+    
+}
+.card3{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+    
+}
